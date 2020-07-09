@@ -86,7 +86,7 @@ main(int argc, char* argv[])
   std::cout << "Using " << topoName << " topology\n\n";
 
   AnnotatedTopologyReader topologyReader{};
-  topologyReader.SetFileName("src/ndnSIM/examples/topologies/topo-" + topoName + ".txt");
+  topologyReader.SetFileName("topologies/topo-" + topoName + ".txt");
   topologyReader.Read();
 
   ndn::StackHelper stackHelper{};

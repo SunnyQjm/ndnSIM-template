@@ -52,7 +52,7 @@ main(int argc, char* argv[])
   cmd.Parse(argc, argv);
 
   AnnotatedTopologyReader topologyReader("", 25);
-  topologyReader.SetFileName("src/ndnSIM/examples/topologies/topo-6-node.txt");
+  topologyReader.SetFileName("topologies/topo-6-node.txt");
   topologyReader.Read();
 
   // Install NDN stack on all nodes

@@ -32,7 +32,7 @@ main(int argc, char* argv[])
   cmd.Parse(argc, argv);
 
   AnnotatedTopologyReader topologyReader("", 10);
-  topologyReader.SetFileName("src/ndnSIM/examples/topologies/topo-tree-25-node.txt");
+  topologyReader.SetFileName("topologies/topo-tree-25-node.txt");
   topologyReader.Read();
 
   /****************************************************************************/
